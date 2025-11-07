@@ -14,33 +14,35 @@ This project was created as part of the **Full Stack Engineer Take-Home Assignme
 
 ## 📁 Project Structure
 
+```bash
 assignment/
 │
-├── client/ # React + TypeScript frontend
-│ ├── src/
-│ │ ├── components/ # Toolbar, Canvas, Shape tools
-│ │ ├── hooks/ # Custom React hooks
-│ │ ├── pages/ # Multi-page whiteboard views
-│ │ ├── store/ # Zustand store for state management
-│ │ ├── types/ # Shared TypeScript interfaces
-│ │ └── App.tsx
-│ ├── public/
-│ ├── package.json
-│ └── tsconfig.json
+├── client/                     # React + TypeScript frontend
+│   ├── src/
+│   │   ├── components/         # Toolbar, Canvas, Shape tools
+│   │   ├── hooks/              # Custom React hooks
+│   │   ├── pages/              # Multi-page whiteboard views
+│   │   ├── store/              # Zustand store for state management
+│   │   ├── types/              # Shared TypeScript interfaces
+│   │   └── App.tsx
+│   ├── public/
+│   ├── package.json
+│   └── tsconfig.json
 │
-├── server/ # Node.js + Express backend
-│ ├── src/
-│ │ ├── routes/
-│ │ │ ├── shapes.ts
-│ │ │ └── pages.ts
-│ │ ├── models/
-│ │ │ └── shape.model.ts # (if using MongoDB)
-│ │ ├── controllers/
-│ │ └── index.ts
-│ ├── package.json
-│ └── tsconfig.json
+├── server/                     # Node.js + Express backend
+│   ├── src/
+│   │   ├── routes/
+│   │   │   ├── shapes.ts
+│   │   │   └── pages.ts
+│   │   ├── models/
+│   │   │   └── shape.model.ts  # (if using MongoDB)
+│   │   ├── controllers/
+│   │   └── index.ts
+│   ├── package.json
+│   └── tsconfig.json
 │
 └── README.md
+
 
 
 
