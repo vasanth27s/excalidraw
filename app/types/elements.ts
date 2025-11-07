@@ -1,0 +1,19 @@
+import { Drawable } from "roughjs/bin/core";
+import { ToolType } from "./excalidraw";
+
+export interface ElementType {
+  id: number;
+  x1: number;
+  y1: number;
+  x2: number;
+  y2: number;
+  type: ToolType;
+  roughElement: Drawable | null;
+  offsetX?: number;
+  offsetY?: number;
+  position?: string;
+  points?: Array<{ x: number; y: number }>;
+  xOffsets?: number[];
+  yOffsets?: number[];
+  text?: string;
+}
