@@ -8,7 +8,7 @@ This project was created as part of the **Full Stack Engineer Take-Home Assignme
 
 ## 🚀 Live Demo
 
-🔗 [Hosted Link (Frontend)]()  
+🔗 [Hosted Link (Frontend)](https://excalidraw-smoky-beta.vercel.app/E5F4qfcK_hJWL-NP2vUon)  
 
 ---
 
@@ -34,7 +34,7 @@ assignment/
 │ │ │ ├── shapes.ts
 │ │ │ └── pages.ts
 │ │ ├── models/
-│ │ │ └── shape.model.ts (if using MongoDB)
+│ │ │ └── shape.model.ts # (if using MongoDB)
 │ │ ├── controllers/
 │ │ └── index.ts
 │ ├── package.json
